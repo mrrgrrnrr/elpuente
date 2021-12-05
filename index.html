@@ -119,15 +119,7 @@
           delimiter: ','
         }, function (err, data) {
           map.on('load', () => { 
-		// Load an image from an external URL.
-		map.loadImage(
-		'https://docs.mapbox.com/mapbox-gl-js/assets/cat.png',
-		(error, image) => {
-			if (error) throw error;
- 
-		// Add the image to the map style.
-		map.addImage('cat', image);
-
+	
 
             //Add the layer to the map
             map.addLayer({
